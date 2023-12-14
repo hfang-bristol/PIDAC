@@ -1,0 +1,47 @@
+Package: PIDAC
+Type: Package
+Title: Priority index for PDAC
+Version: 1.0.0
+Date: 2023-12-14
+Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
+Maintainer: Hai Fang <fh12355@rjh.com.cn>
+Depends: R (>= 4.3), igraph, ggplot2
+Imports: BiocGenerics, dplyr, forcats, GenomicRanges, ggnetwork, ggrepel, IRanges, magrittr, Matrix, methods, osfr, purrr, readr, stats, stringr, tibble, tidyr, XML, pbapply, curl, ggraph
+Suggests: coin, foreach, ggridges, grid, gridExtra, RColorBrewer, ROCR, ggupset, rtracklayer, Gviz, MASS, dnet, graphics, grDevices, S4Vectors, utils, ggbio, GenomeInfoDb, doParallel, fgsea, scales, supraHex, data.tree, jsonlite
+Description: The PIDAC package is introduced to enable the integration of genomic summary data arising from multi-omics profilings in PDAC. The profilings include but are not limited to genomic mutations, transcriptome, proteome and phosphoproteome. The package is aimed to identify therapeutic candidates, including both therapeutic targets and repurposed drugs.
+Collate:
+    'ClassMethod-PIDAC.r'
+    'oAttack.r'
+    'oColormap.r'
+    'oCombineNet.r'
+    'oDefineNet.r'
+    'oGGnetwork.r'
+    'oHeatmap.r'
+    'oIG2TB.r'
+    'oLayout.r'
+    'oNetInduce.r'
+    'oPieplot.r'
+    'oPier.r'
+    'oPierAnno.r'
+    'oPierGenes.r'
+    'oPierManhattan.r'
+    'oPierMatrix.r'
+    'oPierSubnet.r'
+    'oRDS.r'
+    'oRepurpose.r'
+    'oRWR.r'
+    'oSEA.r'
+    'oSEAadv.r'
+    'oSEAballoon.r'
+	'oSEAextract.r'
+    'oSEAforest.r'
+    'oSparseMatrix.r'
+    'oSubneterGenes.r'
+    'oSymbol2GeneID.r'
+    'oTB2IG.r'
+    'oUpsetAdv.r'
+    'oVisEvidence.r'
+    'oVisEvidenceAdv.r'
+    'oVisNet.r'
+License: GPL-2
+biocViews: SystemsBiology, FunctionalGenomics, GeneTarget, Pathways
